@@ -8,3 +8,6 @@ $bubble->calcula();
 
 $fatorial = new Fatorial();
 $fatorial->calcula();
+
+$linearSearch = new LinearSearch();
+$linearSearch->calcula();

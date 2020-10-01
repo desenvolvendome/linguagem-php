@@ -1,7 +1,7 @@
 <?php
 class Fatorial{
 	function calcula(){
-		echo "\n >>>>> Fatorial <<<<< \n";
+		echo "\n>>>>> Fatorial <<<<<\n";
 		$fatorial = 1;
 		$numero = 5;
 
