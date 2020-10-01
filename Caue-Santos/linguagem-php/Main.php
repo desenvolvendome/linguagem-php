@@ -5,3 +5,6 @@ include("LinearSearch.php");
 
 $bubble = new BubbleSort();
 $bubble->calcula();
+
+$fatorial = new Fatorial();
+$fatorial->calcula();
