@@ -8,3 +8,5 @@ class Fatorial
     return $n * factorial($n - 1); 
   }
 }
+
+?> 
