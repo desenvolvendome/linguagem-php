@@ -7,23 +7,23 @@ function bubbleSort(){
 	$aux;
 	$lengthArrey = count($arr);
 
-	for($i = 0; $i < $lengthArrey - 1; $i++){
+	for($cont = 0; $cont < $lengthArrey - 1; $cont++){
 
-        for($j = 0; $j < $lengthArrey-$i-1; $j++){
+        for($index = 0; $index < $lengthArrey-$cont-1; $index++){
 
-            if ($arr[$j] > $arr[$j+1]){
-				
-                $aux = $arr[$j];
-                $arr[$j] = $arr[$j+1];
-                $arr[$j+1] = $aux;
+            if ($arr[$index] > $arr[$index+1]){
+
+                $aux = $arr[$index];
+                $arr[$index] = $arr[$index+1];
+                $arr[$index+1] = $aux;
             }
         }
     }
 
 	foreach($arr as $a){
-        echo $a, ' ';
+		echo $a;
+        echo ' ';
     };
-
 }
 
 ?>
